@@ -63,6 +63,8 @@ h1 { font-size: 2.7rem; }
   text-align: center;
 }
 
+.card__questions { border: none; }
+
 .details {
   width: 100%;
   padding-top: 1.3rem;

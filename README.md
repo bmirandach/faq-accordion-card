@@ -46,12 +46,15 @@ Users should be able to:
 ### Thoughts
 
 When I first saw this challenge I thought 'ha! This is where the details tag comes in handy'.... haha.I spent a good amount of time trying to replace the marker with the icon provided here. So... I had seen some tabs on codepen made with input and went there looking for pens to guide me. The result was really pretty :)
+
 Of course once you clicked a label the content won't hide until you select another input with the same name. To hide the input I used a class to make them disappear from the screen but not for screen readers (In the code below is called input).
+
 I decided to use the picture tag for the illustration but changed my mind while coding, the things that made me change it for a div with a background image were:
 - the lack of the image would not affect the content of the page
 - I couldn't think of an alt text to write for that...
 
 CSS classes... I read about how to properly name classes but when I had to do it... it's not so easy then, huh? I was trying to make reusable classes then decided against it. Why do I want a class with flex-direction: row and justify-content: space-between in this project if it will only be used for the elements of the accordion? There's already a class for that so why not add it? 'just do the thing for this project'
+
 I wrote display: flex so many times! Still not confident with using it but I'm so happy it worked~
 
 A piece of the accordion :
