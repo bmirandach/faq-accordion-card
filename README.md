@@ -50,6 +50,7 @@ Of course once you clicked a label the content won't hide until you select anoth
 I decided to use the picture tag for the illustration but changed my mind while coding, the things that made me change it for a div with a background image were:
 - the lack of the image would not affect the content of the page
 - I couldn't think of an alt text to write for that...
+
 CSS classes... I read about how to properly name classes but when I had to do it... it's not so easy then, huh? I was trying to make reusable classes then decided against it. Why do I want a class with flex-direction: row and justify-content: space-between in this project if it will only be used for the elements of the accordion? There's already a class for that so why not add it? 'just do the thing for this project'
 I wrote display: flex so many times! Still not confident with using it but I'm so happy it worked~
 
@@ -88,7 +89,7 @@ A piece of the accordion :
 
 ### Useful resources
 
-- [Flexbox guide] (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Second time using flexbox so I was checking this every 2 minutes to make sure things were really like that :) 
+- [Flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Second time using flexbox so I was checking this every 2 minutes to make sure things were really like that :) 
 
 ## Author
 
